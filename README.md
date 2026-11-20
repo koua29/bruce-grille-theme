@@ -1,68 +1,81 @@
 # ⬛ Grille — Bruce Theme
 
+<p align="center">🇺🇸 <b>English</b> · 🇫🇷 <a href="README.fr.md">Français</a></p>
+
 [![Bruce firmware](https://img.shields.io/badge/firmware-Bruce-8A2BE2?logo=github)](https://github.com/BruceDevices/firmware) [![Device](https://img.shields.io/badge/device-LilyGO%20T--Embed%20CC1101-1E90FF)](https://github.com/BruceDevices/firmware) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **EN** — A clean, minimal **grid** UI theme for the **[Bruce firmware](https://github.com/BruceDevices/firmware)** on the LilyGO T-Embed CC1101 (320×170). All menus are shown at once as a **4×4 grid** of professional Material icons; the current menu is highlighted — inverted inside a solid circle. Light and dark variants included.
-
-> **FR** — Un thème UI **grille** minimaliste et propre pour le firmware **[Bruce](https://github.com/BruceDevices/firmware)** sur LilyGO T-Embed CC1101 (320×170). Tous les menus affichés d'un coup en **grille 4×4** d'icônes Material pro ; le menu courant est mis en avant — inversé dans un rond plein. Variantes claire et sombre incluses.
+A clean, minimal **grid** UI theme for the **[Bruce firmware](https://github.com/BruceDevices/firmware)** on the LilyGO T-Embed CC1101 (320×170). All menus are shown at once as a **4×4 grid** of professional Material icons; the current menu is highlighted — inverted inside a solid circle. Light and dark variants included.
 
 ![Grille — light & dark](docs/hero.png)
 
-## 🎨 Deux variantes
+## 🎨 Two variants
 
-| Variante | Pictos | Sélection |
+| Variant | Pictos | Selection |
 |---|---|---|
-| **`Grille`** | noir sur blanc | picto **blanc dans un rond noir** |
-| **`Grille_Dark`** | blanc sur noir | picto **noir dans un rond blanc** |
+| **`Grille`** | black on white | **white picto in a black circle** |
+| **`Grille_Dark`** | white on black | **black picto in a white circle** |
 
 | Light | Dark |
 |---|---|
 | ![light](docs/light.png) | ![dark](docs/dark.png) |
 
-## ✨ Détails
+## ✨ Details
 
-- 🔲 **Grille 4×4** = les 16 entrées du menu visibles en permanence.
-- 🎯 Menu courant **surligné** (inversé dans un rond plein) — pas de texte, ultra lisible.
-- 🧩 Icônes **[Material Icons](https://github.com/google/material-design-icons)** de Google (style pro) : WiFi, Bluetooth, RF, NRF, LoRa, FM, IR, Ethernet, GPS, RFID, Files, Scripts, Clock, Others, Config, Connect.
+- 🔲 **4×4 grid** = all 16 menu entries always visible.
+- 🎯 Current menu **highlighted** (inverted inside a solid circle) — no text, very easy to read.
+- 🧩 Google **[Material Icons](https://github.com/google/material-design-icons)** (professional style): WiFi, Bluetooth, RF, NRF, LoRa, FM, IR, Ethernet, GPS, RFID, Files, Scripts, Clock, Others, Config, Connect.
 
-## 📦 Contenu
+## 📦 Contents
 
-Chaque variante : **4 tailles** × **16 PNG** + `.json`.
+Each variant: **4 sizes** × **16 PNGs** + `.json`.
 
-| Dossier | Image | Écran cible |
+| Folder | Image | Target screen |
 |---|---|---|
 | `105px/` | 240×105 | M5StickC Plus (240×135) |
 | `140px/` | 320×140 | **T-Embed CC1101 / Cardputer (320×170)** |
-| `180px/` | 320×180 | écrans ~320×210 |
-| `192px/` | 320×192 | écrans ~320×222 |
+| `180px/` | 320×180 | ~320×210 screens |
+| `192px/` | 320×192 | ~320×222 screens |
 
-> ℹ️ **Barre d'état** — Bruce réserve **30 px en haut**. Taille = hauteur écran − 30 → **T-Embed CC1101 = `140px`**.
+> ℹ️ **Status bar** — Bruce reserves **30 px at the top**. Size = screen height − 30 → **T-Embed CC1101 = `140px`**.
 
 ## 🚀 Installation
 
-1. Copie **`Grille`** et/ou **`Grille_Dark`** à la racine de la carte SD.
-2. Sur l'appareil : **Config → UI Theme → `Grille/140px/Theme_Grille.json`** (ou `Grille_Dark/140px/Theme_Grille_Dark.json`).
-3. Via WiFi : **Files → WebUI**, upload le dossier, puis sélectionne le `.json`.
+1. Copy **`Grille`** and/or **`Grille_Dark`** to the root of the SD card.
+2. On the device: **Config → UI Theme → `Grille/140px/Theme_Grille.json`** (or `Grille_Dark/140px/Theme_Grille_Dark.json`).
+3. Over WiFi: **Files → WebUI**, upload the folder, then select the `.json`.
 
-## 🛒 Matériel / Hardware
+## 🛒 Hardware
 
-Accessoires utiles pour ce projet — liens affiliés Amazon :
+*Amazon affiliate links: if you buy through these links, the project earns a small commission at no extra cost to you.*
 
-| [<img src="docs/amazon-B0D45MSMJR.jpg" width="200" alt="Anker 545 power bank (10 000 mAh)">](https://www.amazon.com/dp/B0D45MSMJR?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl) | [<img src="docs/amazon-B0C1FCZM94.jpg" width="200" alt="433 MHz SMA antenna (2-pack)">](https://www.amazon.com/dp/B0C1FCZM94?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl) | [<img src="docs/amazon-B0B7NVMBPL.jpg" width="200" alt="SanDisk 64 GB microSD (2-pack)">](https://www.amazon.com/dp/B0B7NVMBPL?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl) |
-|:---:|:---:|:---:|
-| 🔋 **[Anker 545 power bank (10 000 mAh)](https://www.amazon.com/dp/B0D45MSMJR?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl)**<br><sub>Pour faire tourner le T-Embed loin d'une prise</sub> | 📡 **[433 MHz SMA antenna (2-pack)](https://www.amazon.com/dp/B0C1FCZM94?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl)**<br><sub>Antenne sub-GHz pour la radio CC1101</sub> | 💾 **[SanDisk 64 GB microSD (2-pack)](https://www.amazon.com/dp/B0B7NVMBPL?linkCode=ll2&tag=koua29bgrilletheme-20&ref_=as_li_ss_tl)**<br><sub>Pour les thèmes, scripts et captures Bruce</sub> |
+<table>
+<tr>
+<td align="center" width="33%">
+  <a href="https://www.amazon.com/dp/B0D45MSMJR?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl"><img src="docs/amazon-B0D45MSMJR.jpg" width="200" alt="Anker 545 power bank (10,000 mAh)"></a><br>
+  <b><a href="https://www.amazon.com/dp/B0D45MSMJR?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl">Anker 545 power bank (10,000 mAh)</a></b><br><sub>Keeps the T-Embed running away from an outlet</sub>
+</td>
+<td align="center" width="33%">
+  <a href="https://www.amazon.com/dp/B0C1FCZM94?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl"><img src="docs/amazon-B0C1FCZM94.jpg" width="200" alt="433 MHz SMA antenna (2-pack)"></a><br>
+  <b><a href="https://www.amazon.com/dp/B0C1FCZM94?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl">433 MHz SMA antenna (2-pack)</a></b><br><sub>Sub-GHz antenna for the CC1101 radio</sub>
+</td>
+<td align="center" width="33%">
+  <a href="https://www.amazon.com/dp/B0B7NVMBPL?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl"><img src="docs/amazon-B0B7NVMBPL.jpg" width="200" alt="SanDisk 64 GB microSD (2-pack)"></a><br>
+  <b><a href="https://www.amazon.com/dp/B0B7NVMBPL?linkCode=ll2&amp;tag=koua29bgrilletheme-20&amp;ref_=as_li_ss_tl">SanDisk 64 GB microSD (2-pack)</a></b><br><sub>For Bruce themes, scripts and captures</sub>
+</td>
+</tr>
+</table>
 
-<sub>En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises. · As an Amazon Associate I earn from qualifying purchases.</sub>
+<sub>As an Amazon Associate I earn from qualifying purchases.</sub>
 
-## 🎨 Crédits
+## 🎨 Credits
 
-- Thème par **koua29**. Icônes : **[Material Icons](https://github.com/google/material-design-icons)** de Google — licence **Apache 2.0**.
-- Tourne sur l'excellent **[Bruce firmware](https://github.com/BruceDevices/firmware)**.
+- Theme by **koua29**. Icons: Google **[Material Icons](https://github.com/google/material-design-icons)** — **Apache 2.0** license.
+- Runs on the excellent **[Bruce firmware](https://github.com/BruceDevices/firmware)**.
 
-## ☕ Un café ?
+## ☕ Buy me a coffee
 
 <img src="docs/paypal-qr.png" width="180" alt="PayPal" />
 
-## 📄 Licence
+## 📄 License
 
-Assets du dépôt sous **MIT** (voir [LICENSE](LICENSE)). Icônes Material sous **Apache 2.0**.
+Repository assets under **MIT** (see [LICENSE](LICENSE)). Material icons under **Apache 2.0**.
